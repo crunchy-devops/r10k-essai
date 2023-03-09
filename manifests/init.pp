@@ -1,4 +1,4 @@
-
+# increase fact length
 $conf_dir = $facts['os']['family'] ? {
       'windows' => "${facts['common_appdata']}/PuppetLabs/puppet/etc",
       default => '/etc/puppetlabs/puppet'
